@@ -5,8 +5,16 @@
     ":prConcurrentLimit10",
     ":prNotPending",
     ":timezone(Asia/Shanghai)",
-    "group:monorepos"
+    "group:monorepos",
+    "group:allNonMajor"
   ],
+  "packageRules": [
+    {
+      "depTypeList": ["peerDependencies"],
+      "enabled": false
+    }
+  ],
+  "ignoreDeps": ["node"],
   "npm": {
     "extends": [
       ":automergePatch",
