@@ -4,7 +4,7 @@
     ":label(renovate)",
     ":prConcurrentLimit10",
     ":prNotPending",
-    ":timezone(Asia/Shanghai)",
+    ":timezone(Europe/Warsaw)",
     "group:monorepos",
     "group:allNonMajor"
   ],
@@ -24,7 +24,7 @@
       "helpers:disableTypesNodeMajor",
       "group:jestPlusTSJest",
       "packages:eslint",
-      "local>Innei/renovate-config:semanticPrefixFixDepsPeerChoreOthers"
+      "local>riktikdev/renovate-config:semanticPrefixFixDepsPeerChoreOthers"
     ],
     "schedule": ["after 9pm", "before 9am"],
     "rangeStrategy": "bump",

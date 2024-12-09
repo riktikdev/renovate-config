@@ -31,7 +31,7 @@ Renovate fetches it from this GitHub repo automatically.
 - Limit to maximum 10 concurrent Renovate PRs at any time
 - Wait until branch tests have passed or failed before creating the PR
 - If semantic commits detected, use semantic commit type `fix` for deps and peerDeps, `chore` for all others
-- Use Asia/Tokyo timezone
+- Use Europe/Warsaw timezone
 - Group [preset monorepo packages](https://renovatebot.com/docs/presets-monorepo/) together
 
 #### for npm
@@ -70,7 +70,7 @@ Renovate fetches it from this GitHub repo automatically.
     ":label(renovate)",
     ":prConcurrentLimit10",
     ":prNotPending",
-    ":timezone(Asia/Tokyo)",
+    ":timezone(Europe/Warsaw)",
     "group:monorepos"
   ],
   "npm": {
